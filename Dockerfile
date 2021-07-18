@@ -40,5 +40,3 @@ RUN service mysql start && \
     sleep 5s && \
     mysql -e "CREATE DATABASE store_MoMs" && \
     mysql -e "CREATE USER 'dhanush'@'localhost' IDENTIFIED BY 'password'"
-
-EXPOSE 3306
