@@ -9,7 +9,7 @@ RUN apt-get update
 RUN apt-get install acl
 RUN apt-get install cron
 RUN apt-get -y install python3.8
-RUN apt-get -y insatll pip
+RUN apt-get -y install pip
 RUN apt-get install -y mysql-server
 
 #providing permission to all the users
