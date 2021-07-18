@@ -15,8 +15,6 @@ services:
       MYSQL_USER: root
       MYSQL_PASSWORD: password
       MYSQL_DB: store_MoMs
-    expose:
-     - '3306'
     networks:
       - dockernet
 
