@@ -1,10 +1,10 @@
-version: '3.8'
+version: '3'
 
 services:
   #NORMAL-MODE 
   normal:
     build:
-      context: ../
+      context: /home/daemondan/Delta/Task_1nd2A
       dockerfile: Dockerfile
     links:
       - db
@@ -12,7 +12,7 @@ services:
       - ../:/var/lib/mysql
     environment:
       MYSQL_HOST: mysql
-      MYSQL_USER: root
+      MYSQL_USER: dhanush
       MYSQL_PASSWORD: password
       MYSQL_DB: store_MoMs
     networks:

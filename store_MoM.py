@@ -5,8 +5,7 @@ mydb=mysql.connector.connect(
   host="localhost",
   user="dhanush",
   password="password",
-  database="store_MoMs",
-  auth_plugin="mysql_native_password"
+  database="store_MoMs"
 )
 mycursor=mydb.cursor()
 
